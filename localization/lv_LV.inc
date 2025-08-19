@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Paraksta randomizētājs';
+$labels['sr_section'] = 'Paraksta opcijas';
+$labels['sr_enable'] = 'Ieslēgt paraksta nejaušinātāju';
+$labels['sr_manager'] = 'Paraksta varianti';
+$labels['sr_include'] = 'Iekļaut';
+$labels['sr_name'] = 'Nosaukums';
+$labels['sr_weight'] = 'Svars';
+$labels['sr_actions'] = 'Darbības';
+$labels['sr_add'] = 'Pievienot';
+$labels['sr_save'] = 'Saglabāt';
+$labels['sr_delete'] = 'Dzēst';
+$labels['sr_duplicate'] = 'Dublikāts';
+$labels['sr_move_up'] = 'Pārvietot uz augšu';
+$labels['sr_move_down'] = 'Pārvietot uz leju';
+$labels['sr_preview'] = 'Priekšskatījums';
+$labels['sr_shuffle'] = 'Shuffle paraksts';
+$labels['sr_shuffle_preview'] = 'Shuffle priekšskatījums';
+$labels['sr_export'] = 'Eksportēt';
+$labels['sr_import'] = 'Importēt';
+$labels['sr_import_paste'] = 'Šeit ielīmējiet JSON un noklikšķiniet uz Importēt';
+$labels['sr_no_variants'] = 'Pagaidām nav variantu. Spiediet Pievienot, lai izveidotu pirmo.';
+$labels['sr_saved'] = 'Saglabāts';
+$labels['sr_invalid_json'] = 'Nederīgs JSON';
+$labels['sr_new_variant'] = 'Jauns variants';
+$labels['sr_html'] = 'Paraksts HTML';
+$labels['sr_preview_title'] = 'Priekšskatījums';
+$labels['sr_import_btn'] = 'Importēt tagad';
+$labels['sr_export_title'] = 'Eksportēt JSON';
+$labels['sr_import_title'] = 'JSON importēšana';
+$labels['sr_toolbar_shuffle'] = 'Shuffle paraksts';
+?>

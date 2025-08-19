@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'أداة التوزيع العشوائي للتوقيعات';
+$labels['sr_section'] = 'خيارات التوقيع';
+$labels['sr_enable'] = 'تمكين أداة تعيين التوقيع العشوائي';
+$labels['sr_manager'] = 'متغيرات التوقيع';
+$labels['sr_include'] = 'تضمين';
+$labels['sr_name'] = 'الاسم';
+$labels['sr_weight'] = 'الوزن';
+$labels['sr_actions'] = 'الإجراءات';
+$labels['sr_add'] = 'إضافة';
+$labels['sr_save'] = 'الحفظ';
+$labels['sr_delete'] = 'حذف';
+$labels['sr_duplicate'] = 'مكررة';
+$labels['sr_move_up'] = 'تحرك للأعلى';
+$labels['sr_move_down'] = 'تحرك لأسفل';
+$labels['sr_preview'] = 'معاينة';
+$labels['sr_shuffle'] = 'توقيع المراوغة';
+$labels['sr_shuffle_preview'] = 'معاينة المراوغة';
+$labels['sr_export'] = 'التصدير';
+$labels['sr_import'] = 'الاستيراد';
+$labels['sr_import_paste'] = 'الصق JSON هنا وانقر فوق استيراد';
+$labels['sr_no_variants'] = 'لا توجد متغيرات حتى الآن. انقر فوق إضافة لإنشاء أول متغير لك.';
+$labels['sr_saved'] = 'تم الحفظ';
+$labels['sr_invalid_json'] = 'JSON غير صالح';
+$labels['sr_new_variant'] = 'متغير جديد';
+$labels['sr_html'] = 'توقيع HTML';
+$labels['sr_preview_title'] = 'معاينة';
+$labels['sr_import_btn'] = 'الاستيراد الآن';
+$labels['sr_export_title'] = 'تصدير JSON';
+$labels['sr_import_title'] = 'استيراد JSON';
+$labels['sr_toolbar_shuffle'] = 'توقيع المراوغة';
+?>

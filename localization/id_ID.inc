@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Pengacak Tanda Tangan';
+$labels['sr_section'] = 'Opsi Tanda Tangan';
+$labels['sr_enable'] = 'Mengaktifkan Pengacak Tanda Tangan';
+$labels['sr_manager'] = 'Varian Tanda Tangan';
+$labels['sr_include'] = 'Termasuk';
+$labels['sr_name'] = 'Nama';
+$labels['sr_weight'] = 'Berat';
+$labels['sr_actions'] = 'Tindakan';
+$labels['sr_add'] = 'Menambahkan';
+$labels['sr_save'] = 'Simpan';
+$labels['sr_delete'] = 'Menghapus';
+$labels['sr_duplicate'] = 'Duplikat';
+$labels['sr_move_up'] = 'Pindah ke atas';
+$labels['sr_move_down'] = 'Pindah ke bawah';
+$labels['sr_preview'] = 'Pratinjau';
+$labels['sr_shuffle'] = 'Mengacak tanda tangan';
+$labels['sr_shuffle_preview'] = 'Pratinjau kocokan';
+$labels['sr_export'] = 'Ekspor';
+$labels['sr_import'] = 'Impor';
+$labels['sr_import_paste'] = 'Rekatkan JSON di sini dan klik Impor';
+$labels['sr_no_variants'] = 'Belum ada varian. Klik Tambah untuk membuat yang pertama.';
+$labels['sr_saved'] = 'Tersimpan';
+$labels['sr_invalid_json'] = 'JSON tidak valid';
+$labels['sr_new_variant'] = 'Varian baru';
+$labels['sr_html'] = 'Tanda tangan HTML';
+$labels['sr_preview_title'] = 'Pratinjau';
+$labels['sr_import_btn'] = 'Impor sekarang';
+$labels['sr_export_title'] = 'Ekspor JSON';
+$labels['sr_import_title'] = 'Impor JSON';
+$labels['sr_toolbar_shuffle'] = 'Mengacak tanda tangan';
+?>

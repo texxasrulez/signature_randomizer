@@ -1,7 +1,4 @@
 <?php
-/**
- * Localization (English US)
- */
 $labels = array(
   'sr_title'           => 'Signature Randomizer',
   'sr_section'         => 'Signature Options',

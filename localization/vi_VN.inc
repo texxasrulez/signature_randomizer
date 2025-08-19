@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Trình tạo chữ ký ngẫu nhiên';
+$labels['sr_section'] = 'Tùy chọn chữ ký';
+$labels['sr_enable'] = 'Bật tính năng ngẫu nhiên hóa chữ ký';
+$labels['sr_manager'] = 'Biến thể chữ ký';
+$labels['sr_include'] = 'Bao gồm';
+$labels['sr_name'] = 'Tên';
+$labels['sr_weight'] = 'Cân nặng';
+$labels['sr_actions'] = 'Hành động';
+$labels['sr_add'] = 'Thêm';
+$labels['sr_save'] = 'Lưu';
+$labels['sr_delete'] = 'Xóa';
+$labels['sr_duplicate'] = 'Bản sao';
+$labels['sr_move_up'] = 'Tiến lên';
+$labels['sr_move_down'] = 'Di chuyển xuống';
+$labels['sr_preview'] = 'Xem trước';
+$labels['sr_shuffle'] = 'Trộn chữ ký';
+$labels['sr_shuffle_preview'] = 'Xem trước ngẫu nhiên';
+$labels['sr_export'] = 'Xuất khẩu';
+$labels['sr_import'] = 'Nhập khẩu';
+$labels['sr_import_paste'] = 'Dán JSON vào đây và nhấp vào Nhập';
+$labels['sr_no_variants'] = 'Chưa có biến thể nào. Nhấp vào Thêm để tạo biến thể đầu tiên của bạn.';
+$labels['sr_saved'] = 'Đã lưu';
+$labels['sr_invalid_json'] = 'JSON không hợp lệ';
+$labels['sr_new_variant'] = 'Biến thể mới';
+$labels['sr_html'] = 'HTML chữ ký';
+$labels['sr_preview_title'] = 'Xem trước';
+$labels['sr_import_btn'] = 'Nhập ngay';
+$labels['sr_export_title'] = 'Xuất JSON';
+$labels['sr_import_title'] = 'Nhập JSON';
+$labels['sr_toolbar_shuffle'] = 'Trộn chữ ký';
+?>

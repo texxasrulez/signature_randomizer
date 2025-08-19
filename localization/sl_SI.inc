@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Naključni upravljalnik podpisa';
+$labels['sr_section'] = 'Možnosti podpisa';
+$labels['sr_enable'] = 'Omogočanje naključnega določanja podpisa';
+$labels['sr_manager'] = 'Variante podpisa';
+$labels['sr_include'] = 'Vključite';
+$labels['sr_name'] = 'Ime';
+$labels['sr_weight'] = 'Teža';
+$labels['sr_actions'] = 'Ukrepi';
+$labels['sr_add'] = 'Dodaj';
+$labels['sr_save'] = 'Shrani';
+$labels['sr_delete'] = 'Izbriši';
+$labels['sr_duplicate'] = 'Duplikatni';
+$labels['sr_move_up'] = 'Premaknite se navzgor';
+$labels['sr_move_down'] = 'Premaknite se navzdol';
+$labels['sr_preview'] = 'Predogled';
+$labels['sr_shuffle'] = 'Podpis Shuffle';
+$labels['sr_shuffle_preview'] = 'Predogled Shuffle';
+$labels['sr_export'] = 'Izvoz';
+$labels['sr_import'] = 'Uvoz';
+$labels['sr_import_paste'] = 'Sem prilepite JSON in kliknite Uvozi';
+$labels['sr_no_variants'] = 'Variant še ni. Kliknite Dodaj in ustvarite prvo.';
+$labels['sr_saved'] = 'Shranjeno';
+$labels['sr_invalid_json'] = 'Nepravilen JSON';
+$labels['sr_new_variant'] = 'Nova različica';
+$labels['sr_html'] = 'Podpis HTML';
+$labels['sr_preview_title'] = 'Predogled';
+$labels['sr_import_btn'] = 'Uvozite zdaj';
+$labels['sr_export_title'] = 'Izvoz JSON';
+$labels['sr_import_title'] = 'Uvoz JSON';
+$labels['sr_toolbar_shuffle'] = 'Podpis Shuffle';
+?>

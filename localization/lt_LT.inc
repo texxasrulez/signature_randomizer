@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Parašo atsitiktinės atrankos programa';
+$labels['sr_section'] = 'Parašo parinktys';
+$labels['sr_enable'] = 'Įjungti parašo atsitiktinį pasirinkimą';
+$labels['sr_manager'] = 'Parašo variantai';
+$labels['sr_include'] = 'Įtraukite';
+$labels['sr_name'] = 'Pavadinimas';
+$labels['sr_weight'] = 'Svoris';
+$labels['sr_actions'] = 'Veiksmai';
+$labels['sr_add'] = 'Pridėti';
+$labels['sr_save'] = 'Išsaugoti';
+$labels['sr_delete'] = 'Ištrinti';
+$labels['sr_duplicate'] = 'Dublikatas';
+$labels['sr_move_up'] = 'Pereiti į aukštesnį lygį';
+$labels['sr_move_down'] = 'Perkelkite žemyn';
+$labels['sr_preview'] = 'Peržiūra';
+$labels['sr_shuffle'] = 'Shuffle parašas';
+$labels['sr_shuffle_preview'] = '"Shuffle" peržiūra';
+$labels['sr_export'] = 'Eksportuoti';
+$labels['sr_import'] = 'Importas';
+$labels['sr_import_paste'] = 'Čia įklijuokite JSON ir spustelėkite Importuoti';
+$labels['sr_no_variants'] = 'Kol kas variantų nėra. Spustelėkite Pridėti, kad sukurtumėte pirmąjį.';
+$labels['sr_saved'] = 'Išsaugota';
+$labels['sr_invalid_json'] = 'Netinkamas JSON';
+$labels['sr_new_variant'] = 'Naujas variantas';
+$labels['sr_html'] = 'Parašas HTML';
+$labels['sr_preview_title'] = 'Peržiūra';
+$labels['sr_import_btn'] = 'Importuoti dabar';
+$labels['sr_export_title'] = 'Eksportuoti JSON';
+$labels['sr_import_title'] = 'JSON importavimas';
+$labels['sr_toolbar_shuffle'] = 'Shuffle parašas';
+?>

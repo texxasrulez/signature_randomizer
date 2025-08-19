@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'מחולל חתימות אקראיות';
+$labels['sr_section'] = 'אפשרויות חתימה';
+$labels['sr_enable'] = 'הפעל אקראיות חתימה';
+$labels['sr_manager'] = 'גרסאות חתימה';
+$labels['sr_include'] = 'כלול';
+$labels['sr_name'] = 'שם';
+$labels['sr_weight'] = 'משקל';
+$labels['sr_actions'] = 'פעולות';
+$labels['sr_add'] = 'הוסף';
+$labels['sr_save'] = 'שמור';
+$labels['sr_delete'] = 'מחק';
+$labels['sr_duplicate'] = 'כפיל';
+$labels['sr_move_up'] = 'לעבור למעלה';
+$labels['sr_move_down'] = 'לרדת למטה';
+$labels['sr_preview'] = 'תצוגה מקדימה';
+$labels['sr_shuffle'] = 'חתימה אקראית';
+$labels['sr_shuffle_preview'] = 'תצוגה מקדימה של ערבוב';
+$labels['sr_export'] = 'ייצוא';
+$labels['sr_import'] = 'ייבוא';
+$labels['sr_import_paste'] = 'הדבק כאן את ה-JSON ולחץ על ייבוא';
+$labels['sr_no_variants'] = 'אין עדיין וריאציות. לחץ על הוסף כדי ליצור את הראשונה שלך.';
+$labels['sr_saved'] = 'שמור';
+$labels['sr_invalid_json'] = 'JSON לא חוקי';
+$labels['sr_new_variant'] = 'גרסה חדשה';
+$labels['sr_html'] = 'HTML חתימה';
+$labels['sr_preview_title'] = 'תצוגה מקדימה';
+$labels['sr_import_btn'] = 'ייבא עכשיו';
+$labels['sr_export_title'] = 'ייצא JSON';
+$labels['sr_import_title'] = 'ייבוא JSON';
+$labels['sr_toolbar_shuffle'] = 'חתימה אקראית';
+?>

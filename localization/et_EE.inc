@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Allkirja juhuslikuks muutmine';
+$labels['sr_section'] = 'Allkirja valikud';
+$labels['sr_enable'] = 'Allkirja juhuslikkuse lubamine';
+$labels['sr_manager'] = 'Allkirja variandid';
+$labels['sr_include'] = 'Lisada';
+$labels['sr_name'] = 'Nimi';
+$labels['sr_weight'] = 'Kaal';
+$labels['sr_actions'] = 'Meetmed';
+$labels['sr_add'] = 'Lisa';
+$labels['sr_save'] = 'Salvesta';
+$labels['sr_delete'] = 'Kustuta';
+$labels['sr_duplicate'] = 'Duplikaat';
+$labels['sr_move_up'] = 'Liigu ülespoole';
+$labels['sr_move_down'] = 'Liigu alla';
+$labels['sr_preview'] = 'Eelvaade';
+$labels['sr_shuffle'] = 'Shuffle allkiri';
+$labels['sr_shuffle_preview'] = 'Shuffle eelvaade';
+$labels['sr_export'] = 'Eksport';
+$labels['sr_import'] = 'Import';
+$labels['sr_import_paste'] = 'Sisestage siia JSON ja klõpsake nuppu Import';
+$labels['sr_no_variants'] = 'Veel ei ole variante. Esimese loomiseks klõpsake nuppu Lisa.';
+$labels['sr_saved'] = 'Salvestatud';
+$labels['sr_invalid_json'] = 'Vigane JSON';
+$labels['sr_new_variant'] = 'Uus variant';
+$labels['sr_html'] = 'Allkiri HTML';
+$labels['sr_preview_title'] = 'Eelvaade';
+$labels['sr_import_btn'] = 'Impordi nüüd';
+$labels['sr_export_title'] = 'Ekspordi JSON';
+$labels['sr_import_title'] = 'Importida JSON';
+$labels['sr_toolbar_shuffle'] = 'Shuffle allkiri';
+?>

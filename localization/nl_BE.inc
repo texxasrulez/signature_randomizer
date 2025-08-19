@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Handtekening Randomizer';
+$labels['sr_section'] = 'Handtekening Opties';
+$labels['sr_enable'] = 'Randomizer handtekening inschakelen';
+$labels['sr_manager'] = 'Handtekening Varianten';
+$labels['sr_include'] = 'Opnemen';
+$labels['sr_name'] = 'Naam';
+$labels['sr_weight'] = 'Gewicht';
+$labels['sr_actions'] = 'Acties';
+$labels['sr_add'] = 'Voeg  toe';
+$labels['sr_save'] = 'Sla';
+$labels['sr_delete'] = 'Verwijder';
+$labels['sr_duplicate'] = 'Dubbele';
+$labels['sr_move_up'] = 'Omhoog';
+$labels['sr_move_down'] = 'Naar beneden';
+$labels['sr_preview'] = 'Voorbeeld';
+$labels['sr_shuffle'] = 'Shuffle-handtekening';
+$labels['sr_shuffle_preview'] = 'Shuffle voorbeeld';
+$labels['sr_export'] = 'Exporteer';
+$labels['sr_import'] = 'Importeren';
+$labels['sr_import_paste'] = 'Plak hier JSON en klik op Importeren';
+$labels['sr_no_variants'] = 'Nog geen varianten. Klik op Toevoegen om je eerste variant te maken.';
+$labels['sr_saved'] = 'Opgeslagen';
+$labels['sr_invalid_json'] = 'Ongeldige JSON';
+$labels['sr_new_variant'] = 'Nieuwe variant';
+$labels['sr_html'] = 'Handtekening HTML';
+$labels['sr_preview_title'] = 'Voorbeeld';
+$labels['sr_import_btn'] = 'Nu importeren';
+$labels['sr_export_title'] = 'JSON exporteren';
+$labels['sr_import_title'] = 'JSON importeren';
+$labels['sr_toolbar_shuffle'] = 'Shuffle-handtekening';
+?>

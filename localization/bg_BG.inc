@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Случаен разпределител на подписи';
+$labels['sr_section'] = 'Опции за подписване';
+$labels['sr_enable'] = 'Активиране на Случаен избор на подпис';
+$labels['sr_manager'] = 'Варианти на подписа';
+$labels['sr_include'] = 'Включете';
+$labels['sr_name'] = 'Име';
+$labels['sr_weight'] = 'Тегло';
+$labels['sr_actions'] = 'Действия';
+$labels['sr_add'] = 'Добавяне на';
+$labels['sr_save'] = 'Запазете';
+$labels['sr_delete'] = 'Изтриване на';
+$labels['sr_duplicate'] = 'Дублиране на';
+$labels['sr_move_up'] = 'Преместване нагоре';
+$labels['sr_move_down'] = 'Преместване надолу';
+$labels['sr_preview'] = 'Преглед';
+$labels['sr_shuffle'] = 'Подпис на Shuffle';
+$labels['sr_shuffle_preview'] = 'Преглед на Shuffle';
+$labels['sr_export'] = 'Експорт';
+$labels['sr_import'] = 'Внос';
+$labels['sr_import_paste'] = 'Поставете JSON тук и щракнете върху Импортиране';
+$labels['sr_no_variants'] = 'Все още няма варианти. Щракнете върху Добави, за да създадете първия.';
+$labels['sr_saved'] = 'Запазено';
+$labels['sr_invalid_json'] = 'Невалиден JSON';
+$labels['sr_new_variant'] = 'Нов вариант';
+$labels['sr_html'] = 'Подпис HTML';
+$labels['sr_preview_title'] = 'Преглед';
+$labels['sr_import_btn'] = 'Внос сега';
+$labels['sr_export_title'] = 'Експортиране на JSON';
+$labels['sr_import_title'] = 'Импортиране на JSON';
+$labels['sr_toolbar_shuffle'] = 'Подпис на Shuffle';
+?>

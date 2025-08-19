@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Randomizador de assinaturas';
+$labels['sr_section'] = 'Opções de assinatura';
+$labels['sr_enable'] = 'Ativar o Randomizador de Assinatura';
+$labels['sr_manager'] = 'Variantes de assinatura';
+$labels['sr_include'] = 'Incluir';
+$labels['sr_name'] = 'Nome';
+$labels['sr_weight'] = 'Peso';
+$labels['sr_actions'] = 'Ações';
+$labels['sr_add'] = 'Adicionar';
+$labels['sr_save'] = 'Salvar';
+$labels['sr_delete'] = 'Excluir';
+$labels['sr_duplicate'] = 'Duplicado';
+$labels['sr_move_up'] = 'Subir';
+$labels['sr_move_down'] = 'Mover para baixo';
+$labels['sr_preview'] = 'Prévia';
+$labels['sr_shuffle'] = 'Assinatura aleatória';
+$labels['sr_shuffle_preview'] = 'Visualização aleatória';
+$labels['sr_export'] = 'Exportação';
+$labels['sr_import'] = 'Importação';
+$labels['sr_import_paste'] = 'Cole o JSON aqui e clique em Importar';
+$labels['sr_no_variants'] = 'Ainda não há variantes. Clique em Add para criar a primeira.';
+$labels['sr_saved'] = 'Salvo';
+$labels['sr_invalid_json'] = 'JSON inválido';
+$labels['sr_new_variant'] = 'Nova variante';
+$labels['sr_html'] = 'Assinatura HTML';
+$labels['sr_preview_title'] = 'Prévia';
+$labels['sr_import_btn'] = 'Importar agora';
+$labels['sr_export_title'] = 'Exportar JSON';
+$labels['sr_import_title'] = 'Importar JSON';
+$labels['sr_toolbar_shuffle'] = 'Assinatura aleatória';
+?>

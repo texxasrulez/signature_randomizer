@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Signatur Randomizer';
+$labels['sr_section'] = 'Signaturalternativer';
+$labels['sr_enable'] = 'Aktiver Signatur Randomizer';
+$labels['sr_manager'] = 'Signaturvarianter';
+$labels['sr_include'] = 'Inkludere';
+$labels['sr_name'] = 'Navn';
+$labels['sr_weight'] = 'Vekt';
+$labels['sr_actions'] = 'Handlinger';
+$labels['sr_add'] = 'Legg til';
+$labels['sr_save'] = 'Spar';
+$labels['sr_delete'] = 'Slett';
+$labels['sr_duplicate'] = 'Duplikat';
+$labels['sr_move_up'] = 'Flytt opp';
+$labels['sr_move_down'] = 'Flytt ned';
+$labels['sr_preview'] = 'Forhåndsvisning';
+$labels['sr_shuffle'] = 'Shuffle-signatur';
+$labels['sr_shuffle_preview'] = 'Forhåndsvisning av Shuffle';
+$labels['sr_export'] = 'Eksport';
+$labels['sr_import'] = 'Import';
+$labels['sr_import_paste'] = 'Lim inn JSON her og klikk på Importer';
+$labels['sr_no_variants'] = 'Ingen varianter ennå. Klikk på Legg til for å opprette din første.';
+$labels['sr_saved'] = 'Reddet';
+$labels['sr_invalid_json'] = 'Ugyldig JSON';
+$labels['sr_new_variant'] = 'Ny variant';
+$labels['sr_html'] = 'HTML-signatur';
+$labels['sr_preview_title'] = 'Forhåndsvisning';
+$labels['sr_import_btn'] = 'Importer nå';
+$labels['sr_export_title'] = 'Eksporter JSON';
+$labels['sr_import_title'] = 'Importer JSON';
+$labels['sr_toolbar_shuffle'] = 'Shuffle-signatur';
+?>

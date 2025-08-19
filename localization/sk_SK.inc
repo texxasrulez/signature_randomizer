@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Náhodný výber podpisu';
+$labels['sr_section'] = 'Možnosti podpisu';
+$labels['sr_enable'] = 'Povolenie náhodného výberu podpisu';
+$labels['sr_manager'] = 'Varianty podpisu';
+$labels['sr_include'] = 'Zahrnúť';
+$labels['sr_name'] = 'Názov';
+$labels['sr_weight'] = 'Hmotnosť';
+$labels['sr_actions'] = 'Činnosti';
+$labels['sr_add'] = 'Pridať';
+$labels['sr_save'] = 'Uložiť';
+$labels['sr_delete'] = 'Odstrániť';
+$labels['sr_duplicate'] = 'Duplikát';
+$labels['sr_move_up'] = 'Posunúť sa nahor';
+$labels['sr_move_down'] = 'Posunúť sa nadol';
+$labels['sr_preview'] = 'Náhľad';
+$labels['sr_shuffle'] = 'Náhodný podpis';
+$labels['sr_shuffle_preview'] = 'Náhľad náhodného výberu';
+$labels['sr_export'] = 'Export';
+$labels['sr_import'] = 'Import';
+$labels['sr_import_paste'] = 'Sem vložte JSON a kliknite na Importovať';
+$labels['sr_no_variants'] = 'Zatiaľ žiadne varianty. Kliknutím na tlačidlo Pridať vytvorte svoj prvý.';
+$labels['sr_saved'] = 'Uložené';
+$labels['sr_invalid_json'] = 'Neplatný JSON';
+$labels['sr_new_variant'] = 'Nový variant';
+$labels['sr_html'] = 'Podpis HTML';
+$labels['sr_preview_title'] = 'Náhľad';
+$labels['sr_import_btn'] = 'Importovať teraz';
+$labels['sr_export_title'] = 'Exportovať JSON';
+$labels['sr_import_title'] = 'Importovať JSON';
+$labels['sr_toolbar_shuffle'] = 'Náhodný podpis';
+?>
