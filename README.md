@@ -119,5 +119,5 @@ MIT License
 
 ## Credits
 
-- Original Author(s): (please insert, not listed in header)
+- Original Author(s): Gene Hawkins AKA texxasrulez
 - Contributions welcome!
