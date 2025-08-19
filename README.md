@@ -29,7 +29,7 @@ Each signature can be weighted, randomized, and managed through a built-in UI.
 From your Roundcube root directory:
 
 ```bash
-composer require your-vendor/roundcube-signature-randomizer
+composer require your-vendor/signature_randomizer
 ```
 
 This installs the plugin under `plugins/signature_randomizer/`.
@@ -104,7 +104,7 @@ bin/cleancache.sh
 If installed via Composer:
 
 ```bash
-composer remove your-vendor/roundcube-signature-randomizer
+composer remove your-vendor/signature_randomizer
 ```
 
 If installed manually, remove the `plugins/signature_randomizer/` directory.

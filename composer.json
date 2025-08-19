@@ -1,6 +1,7 @@
 {
-  "name": "texxasrulez/roundcube-signature-randomizer",
+  "name": "texxasrulez/signature_randomizer",
   "description": "Roundcube plugin: multi-variant signatures with weighted randomization and theme-native UI.",
+    "homepage": "https://github.com/texxasrulez/signature_randomizer",
   "type": "roundcube-plugin",
   "version": "0.9.6",
   "license": "MIT",
