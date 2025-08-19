@@ -1,0 +1,151 @@
+/* Signature Randomizer — Elastic skin refinement (focused on layout/spacing; no colors) */
+
+/* Container spacing to align with Elastic's form blocks */
+#sr-manager {
+  margin-top: 12px;
+}
+
+/* Title inherits Elastic h3 but ensure compact spacing */
+#sr-manager h3 {
+  margin: 0 0 .5rem 0;
+  font-weight: 600;
+}
+
+/* Control bar behaves like a toolbar with wrapping for small widths */
+#sr-manager .sr-controls {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: .5rem 0 .75rem 0;
+}
+
+/* Keep buttons readable and prevent awkward line breaks */
+#sr-manager .sr-controls .button {
+  white-space: nowrap;
+}
+
+/* Table aligns with Elastic propform look-and-feel */
+#sr-table {
+  width: 100%;
+  background-color: #21292c;
+  color: #fff;
+  border-collapse: separate;
+  border-spacing: 0 6px; /* soft row separation like Elastic groups */
+}
+
+#sr-table th.title {
+  text-align: left;
+  font-weight: 600;
+  padding: 2px 6px;
+}
+
+#sr-table td {
+  vertical-align: middle;
+  padding: 6px;
+}
+
+/* Inputs stretch neatly without blowing up row heights */
+#sr-table .txt {
+  width: 100%;
+  background-color: #21292c;
+  color: #fff;
+  box-sizing: border-box;
+  min-height: 30px;
+}
+
+/* Weight field stays compact */
+#sr-table input[type="number"].txt {
+  max-width: 120px;
+}
+
+/* Action button cluster pulls right, wraps gracefully */
+#sr-table .sr-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+/* Editor row directly under each variant with label */
+.sr-editor-row .sr-html {
+  width: 100%;
+  background-color: #21292c;
+  color: #fff;
+  box-sizing: border-box;
+  margin-top: 6px;
+  min-height: 200px; /* per your request */
+  height: 200px;     /* explicit match across browsers */
+  line-height: 1.4;
+  resize: vertical;  /* allow user-resize without breaking layout */
+}
+
+/* Subtle label above the textarea, matching Elastic subdued captions */
+.sr-html-label {
+  font-size: .875rem;
+  opacity: .8;
+  margin-bottom: 2px;
+}
+
+/* Empty state row spacing to keep things airy */
+#sr-table tr.sr-empty td {
+  padding: 10px 6px;
+}
+
+/* Ensure Import button text has proper contrast in dialogs */
+#sr-import-now.button.mainaction { opacity: 1; }
+
+/* Small screens: stack columns more comfortably */
+@media (max-width: 720px) {
+  #sr-table colgroup { display: none; }
+  #sr-table thead { display: none; }
+  #sr-table tbody tr.sr-row,
+  #sr-table tbody tr.sr-editor-row {
+    display: block;
+  }
+  #sr-table tbody tr.sr-row td,
+  #sr-table tbody tr.sr-editor-row td {
+    display: block;
+    width: 100%;
+    padding: 4px 0;
+  }
+  #sr-table .sr-actions {
+    justify-content: flex-start;
+  }
+}
+
+
+/* ===== UI Tighten pass (2025-08) ===== */
+/* Compact header + row spacing */
+#sr-table th { text-align:left; padding: 4px 6px; }
+#sr-table td { padding: 4px 6px; }
+
+/* Column layout: [Include | Name | Weight | Actions] */
+#sr-table { table-layout: fixed; width: 100%; }
+#sr-table th:nth-child(1), #sr-table td:nth-child(1) { width: 56px; }
+#sr-table th:nth-child(2), #sr-table td:nth-child(2) { width: auto; }
+#sr-table th:nth-child(3), #sr-table td:nth-child(3) { width: 96px; }
+#sr-table th:nth-child(4), #sr-table td:nth-child(4) { width: 320px; }
+
+/* Weight input visibly wider so it can't be mistaken for a checkbox */
+#sr-table td:nth-child(3) input[type="text"],
+#sr-table td:nth-child(3) input[type="number"],
+#sr-table td:nth-child(3) input { width: 90px; max-width: 100%; box-sizing: border-box; }
+
+/* Keep label/title visually close to its control */
+#sr-table .txt { margin-top: 0; }
+
+/* Actions: consistent button sizing + alignment */
+#sr-table .sr-actions { display:flex; gap:8px; align-items:stretch; flex-wrap:wrap; justify-content:flex-end; }
+#sr-table .sr-actions .button,
+#sr-table .sr-actions button,
+#sr-manager .sr-controls .button,
+#sr-manager .sr-controls button { min-height: 28px; line-height: 28px; padding: 0 10px; box-sizing: border-box; }
+
+/* Prevent overly tall HTML editor cell from crowding */
+.sr-editor-row .sr-html { min-height: 200px; height: 200px; }
+
+/* Checkbox column centers the box but keeps the header left-aligned */
+#sr-table td:nth-child(1) { text-align:center; }
+#sr-table th:nth-child(1) { text-align:left; }
+

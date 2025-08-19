@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Рандомизатор подписей';
+$labels['sr_section'] = 'Опции подписи';
+$labels['sr_enable'] = 'Включить рандомизатор подписи';
+$labels['sr_manager'] = 'Варианты подписи';
+$labels['sr_include'] = 'Включите';
+$labels['sr_name'] = 'Имя';
+$labels['sr_weight'] = 'Вес';
+$labels['sr_actions'] = 'Действия';
+$labels['sr_add'] = 'Добавить';
+$labels['sr_save'] = 'Сохранить';
+$labels['sr_delete'] = 'Удалить';
+$labels['sr_duplicate'] = 'Дубликат';
+$labels['sr_move_up'] = 'Поднимайтесь';
+$labels['sr_move_down'] = 'Двигайтесь вниз';
+$labels['sr_preview'] = 'Предварительный просмотр';
+$labels['sr_shuffle'] = 'Подпись "Shuffle';
+$labels['sr_shuffle_preview'] = 'Предварительный просмотр тасовок';
+$labels['sr_export'] = 'Экспорт';
+$labels['sr_import'] = 'Импорт';
+$labels['sr_import_paste'] = 'Вставьте сюда JSON и нажмите Импорт';
+$labels['sr_no_variants'] = 'Вариантов пока нет. Нажмите кнопку Добавить, чтобы создать свой первый вариант.';
+$labels['sr_saved'] = 'Сохранено';
+$labels['sr_invalid_json'] = 'Недопустимый JSON';
+$labels['sr_new_variant'] = 'Новый вариант';
+$labels['sr_html'] = 'Подпись HTML';
+$labels['sr_preview_title'] = 'Предварительный просмотр';
+$labels['sr_import_btn'] = 'Импортировать сейчас';
+$labels['sr_export_title'] = 'Экспорт JSON';
+$labels['sr_import_title'] = 'Импорт JSON';
+$labels['sr_toolbar_shuffle'] = 'Подпись "Shuffle';
+?>

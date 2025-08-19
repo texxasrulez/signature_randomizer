@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Randomizzatore di firme';
+$labels['sr_section'] = 'Opzioni di firma';
+$labels['sr_enable'] = 'Abilita il randomizzatore della firma';
+$labels['sr_manager'] = 'Varianti di firma';
+$labels['sr_include'] = 'Includere';
+$labels['sr_name'] = 'Nome';
+$labels['sr_weight'] = 'Peso';
+$labels['sr_actions'] = 'Azioni';
+$labels['sr_add'] = 'Aggiungi';
+$labels['sr_save'] = 'Risparmiare';
+$labels['sr_delete'] = 'Cancellare';
+$labels['sr_duplicate'] = 'Duplicato';
+$labels['sr_move_up'] = 'Salire';
+$labels['sr_move_down'] = 'Scendere';
+$labels['sr_preview'] = 'Anteprima';
+$labels['sr_shuffle'] = 'Firma del mischione';
+$labels['sr_shuffle_preview'] = 'Anteprima Shuffle';
+$labels['sr_export'] = 'Esportazione';
+$labels['sr_import'] = 'Importazione';
+$labels['sr_import_paste'] = 'Incollare qui il JSON e fare clic su Importa';
+$labels['sr_no_variants'] = 'Non ci sono ancora varianti. Fare clic su Aggiungi per creare la prima.';
+$labels['sr_saved'] = 'Salvati';
+$labels['sr_invalid_json'] = 'JSON non valido';
+$labels['sr_new_variant'] = 'Nuova variante';
+$labels['sr_html'] = 'Firma HTML';
+$labels['sr_preview_title'] = 'Anteprima';
+$labels['sr_import_btn'] = 'Importazione ora';
+$labels['sr_export_title'] = 'Esportazione JSON';
+$labels['sr_import_title'] = 'Importazione di JSON';
+$labels['sr_toolbar_shuffle'] = 'Firma del mischione';
+?>

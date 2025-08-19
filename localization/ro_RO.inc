@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Randomizator de semnături';
+$labels['sr_section'] = 'Opțiuni de semnătură';
+$labels['sr_enable'] = 'Activați Randomizatorul de semnături';
+$labels['sr_manager'] = 'Variante de semnătură';
+$labels['sr_include'] = 'Includeți';
+$labels['sr_name'] = 'Nume și prenume';
+$labels['sr_weight'] = 'Greutate';
+$labels['sr_actions'] = 'Acțiuni';
+$labels['sr_add'] = 'Adaugă';
+$labels['sr_save'] = 'Salvați';
+$labels['sr_delete'] = 'Ștergeți';
+$labels['sr_duplicate'] = 'Duplicat';
+$labels['sr_move_up'] = 'Înaintează';
+$labels['sr_move_down'] = 'Coborâți';
+$labels['sr_preview'] = 'Previzualizare';
+$labels['sr_shuffle'] = 'Semnătură Shuffle';
+$labels['sr_shuffle_preview'] = 'Previzualizare Shuffle';
+$labels['sr_export'] = 'Export';
+$labels['sr_import'] = 'Import';
+$labels['sr_import_paste'] = 'Lipiți JSON aici și faceți clic pe Import';
+$labels['sr_no_variants'] = 'Nu există încă variante. Faceți clic pe Adăugare pentru a crea prima variantă.';
+$labels['sr_saved'] = 'Salvat';
+$labels['sr_invalid_json'] = 'JSON invalid';
+$labels['sr_new_variant'] = 'Variantă nouă';
+$labels['sr_html'] = 'Semnătură HTML';
+$labels['sr_preview_title'] = 'Previzualizare';
+$labels['sr_import_btn'] = 'Importați acum';
+$labels['sr_export_title'] = 'Export JSON';
+$labels['sr_import_title'] = 'Import JSON';
+$labels['sr_toolbar_shuffle'] = 'Semnătură Shuffle';
+?>

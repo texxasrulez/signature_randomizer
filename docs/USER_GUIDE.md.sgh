@@ -1,0 +1,25 @@
+# Signature Randomizer — User Guide
+
+This plugin lets you create **multiple signature variants** per identity and randomly pick one when composing.
+
+## Enable
+Settings → Preferences → Composing Messages → Signature Options → **Enable Signature Randomizer**.
+
+## Manage variants (Identities)
+Settings → Identities → select an identity. Under the editor find **Signature Variants**.
+- **Add**: Creates a new variant from the current editor content.
+- **Name**: Rename inline.
+- **Include**: If checked, variant can be randomly selected.
+- **Weight**: Larger = more likely.
+- **Save**: Saves editor content into that variant.
+- **Duplicate/Delete/Move**: Manage list.
+- **Shuffle preview**: Quickly test a random pick in the editor.
+- **Export/Import**: Backup/restore variants as JSON.
+
+![Identities](images/identities_manager.png)
+
+## Compose
+On compose load, the plugin inserts a random active variant for the selected identity.
+Use the **Shuffle signature** toolbar button to re-roll without changing identity.
+
+![Compose](images/compose_shuffle.png)

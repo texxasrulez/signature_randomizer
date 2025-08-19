@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = '시그니처 랜덤라이저';
+$labels['sr_section'] = '서명 옵션';
+$labels['sr_enable'] = '서명 무작위 생성기 사용';
+$labels['sr_manager'] = '시그니처 변형';
+$labels['sr_include'] = '포함';
+$labels['sr_name'] = '이름';
+$labels['sr_weight'] = '무게';
+$labels['sr_actions'] = '작업';
+$labels['sr_add'] = '추가';
+$labels['sr_save'] = '저장';
+$labels['sr_delete'] = '삭제';
+$labels['sr_duplicate'] = '중복';
+$labels['sr_move_up'] = '위로 이동';
+$labels['sr_move_down'] = '아래로 이동';
+$labels['sr_preview'] = '미리 보기';
+$labels['sr_shuffle'] = '셔플 서명';
+$labels['sr_shuffle_preview'] = '셔플 미리보기';
+$labels['sr_export'] = '내보내기';
+$labels['sr_import'] = '가져오기';
+$labels['sr_import_paste'] = '여기에 JSON을 붙여넣고 가져오기를 클릭합니다';
+$labels['sr_no_variants'] = '아직 변형이 없습니다. 추가를 클릭하여 첫 번째 이형 상품을 만드세요.';
+$labels['sr_saved'] = '저장됨';
+$labels['sr_invalid_json'] = '잘못된 JSON';
+$labels['sr_new_variant'] = '새로운 변형';
+$labels['sr_html'] = '서명 HTML';
+$labels['sr_preview_title'] = '미리 보기';
+$labels['sr_import_btn'] = '지금 가져오기';
+$labels['sr_export_title'] = 'JSON 내보내기';
+$labels['sr_import_title'] = 'JSON 가져오기';
+$labels['sr_toolbar_shuffle'] = '셔플 서명';
+?>

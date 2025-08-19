@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Signatur-Zufallsgenerator';
+$labels['sr_section'] = 'Unterschrift Optionen';
+$labels['sr_enable'] = 'Signatur-Zufallsgenerator aktivieren';
+$labels['sr_manager'] = 'Signatur-Varianten';
+$labels['sr_include'] = 'Einbeziehen';
+$labels['sr_name'] = 'Name';
+$labels['sr_weight'] = 'Gewicht';
+$labels['sr_actions'] = 'Aktionen';
+$labels['sr_add'] = 'Hinzufügen';
+$labels['sr_save'] = 'Speichern Sie';
+$labels['sr_delete'] = 'Löschen';
+$labels['sr_duplicate'] = 'Duplizieren Sie';
+$labels['sr_move_up'] = 'Nachrücken';
+$labels['sr_move_down'] = 'Nach unten gehen';
+$labels['sr_preview'] = 'Vorschau';
+$labels['sr_shuffle'] = 'Mischen der Unterschrift';
+$labels['sr_shuffle_preview'] = 'Shuffle-Vorschau';
+$labels['sr_export'] = 'Exportieren';
+$labels['sr_import'] = 'Importieren';
+$labels['sr_import_paste'] = 'Fügen Sie hier JSON ein und klicken Sie auf Importieren';
+$labels['sr_no_variants'] = 'Noch keine Varianten. Klicken Sie auf Hinzufügen, um Ihre erste zu erstellen.';
+$labels['sr_saved'] = 'Gerettet';
+$labels['sr_invalid_json'] = 'Ungültiges JSON';
+$labels['sr_new_variant'] = 'Neue Variante';
+$labels['sr_html'] = 'Unterschrift HTML';
+$labels['sr_preview_title'] = 'Vorschau';
+$labels['sr_import_btn'] = 'Jetzt importieren';
+$labels['sr_export_title'] = 'JSON exportieren';
+$labels['sr_import_title'] = 'JSON importieren';
+$labels['sr_toolbar_shuffle'] = 'Mischen der Unterschrift';
+?>

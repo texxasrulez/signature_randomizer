@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Τυχαίος επιλογέας υπογραφής';
+$labels['sr_section'] = 'Επιλογές υπογραφής';
+$labels['sr_enable'] = 'Ενεργοποίηση τυχαίας επιλογής υπογραφής';
+$labels['sr_manager'] = 'Παραλλαγές υπογραφής';
+$labels['sr_include'] = 'Συμπεριλάβετε το';
+$labels['sr_name'] = 'Όνομα';
+$labels['sr_weight'] = 'Βάρος';
+$labels['sr_actions'] = 'Δράσεις';
+$labels['sr_add'] = 'Προσθέστε';
+$labels['sr_save'] = 'Αποθήκευση';
+$labels['sr_delete'] = 'Διαγραφή';
+$labels['sr_duplicate'] = 'Διπλό';
+$labels['sr_move_up'] = 'Ανεβείτε';
+$labels['sr_move_down'] = 'Μετακινηθείτε προς τα κάτω';
+$labels['sr_preview'] = 'Προεπισκόπηση';
+$labels['sr_shuffle'] = 'Υπογραφή Shuffle';
+$labels['sr_shuffle_preview'] = 'Προεπισκόπηση Shuffle';
+$labels['sr_export'] = 'Εξαγωγή';
+$labels['sr_import'] = 'Εισαγωγή';
+$labels['sr_import_paste'] = 'Επικολλήστε το JSON εδώ και κάντε κλικ στο κουμπί Εισαγωγή';
+$labels['sr_no_variants'] = 'Δεν υπάρχουν ακόμη παραλλαγές. Κάντε κλικ στο κουμπί Προσθήκη για να δημιουργήσετε την πρώτη σας.';
+$labels['sr_saved'] = 'Αποθηκευμένο';
+$labels['sr_invalid_json'] = 'Μη έγκυρο JSON';
+$labels['sr_new_variant'] = 'Νέα παραλλαγή';
+$labels['sr_html'] = 'Υπογραφή HTML';
+$labels['sr_preview_title'] = 'Προεπισκόπηση';
+$labels['sr_import_btn'] = 'Εισαγωγή τώρα';
+$labels['sr_export_title'] = 'Εξαγωγή JSON';
+$labels['sr_import_title'] = 'Εισαγωγή JSON';
+$labels['sr_toolbar_shuffle'] = 'Υπογραφή Shuffle';
+?>

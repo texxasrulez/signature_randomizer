@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'İmza Rastgele Ayarlayıcı';
+$labels['sr_section'] = 'İmza Seçenekleri';
+$labels['sr_enable'] = 'İmza Rastgeleleştiriciyi Etkinleştir';
+$labels['sr_manager'] = 'İmza Varyantları';
+$labels['sr_include'] = 'Dahil etmek';
+$labels['sr_name'] = 'İsim';
+$labels['sr_weight'] = 'Ağırlık';
+$labels['sr_actions'] = 'Eylemler';
+$labels['sr_add'] = 'Ekle';
+$labels['sr_save'] = 'Kaydet';
+$labels['sr_delete'] = 'Silme';
+$labels['sr_duplicate'] = 'Yinelenen';
+$labels['sr_move_up'] = 'İlerleyin';
+$labels['sr_move_down'] = 'Aşağı inin';
+$labels['sr_preview'] = 'Önizleme';
+$labels['sr_shuffle'] = 'Shuffle imzası';
+$labels['sr_shuffle_preview'] = 'Shuffle önizlemesi';
+$labels['sr_export'] = 'İhracat';
+$labels['sr_import'] = 'İthalat';
+$labels['sr_import_paste'] = 'JSON\'u buraya yapıştırın ve İçe Aktar\'a tıklayın';
+$labels['sr_no_variants'] = 'Henüz varyant yok. İlkini oluşturmak için Ekle\'ye tıklayın.';
+$labels['sr_saved'] = 'Kurtarıldı';
+$labels['sr_invalid_json'] = 'Geçersiz JSON';
+$labels['sr_new_variant'] = 'Yeni varyant';
+$labels['sr_html'] = 'İmza HTML';
+$labels['sr_preview_title'] = 'Önizleme';
+$labels['sr_import_btn'] = 'Şimdi ithal et';
+$labels['sr_export_title'] = 'JSON\'u Dışa Aktar';
+$labels['sr_import_title'] = 'JSON İçe Aktar';
+$labels['sr_toolbar_shuffle'] = 'Shuffle imzası';
+?>

@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Allekirjoituksen satunnaistaminen';
+$labels['sr_section'] = 'Allekirjoitusvaihtoehdot';
+$labels['sr_enable'] = 'Ota allekirjoitusten satunnaistaminen käyttöön';
+$labels['sr_manager'] = 'Allekirjoitusvaihtoehdot';
+$labels['sr_include'] = 'Sisällytä';
+$labels['sr_name'] = 'Nimi';
+$labels['sr_weight'] = 'Paino';
+$labels['sr_actions'] = 'Toimet';
+$labels['sr_add'] = 'Lisää';
+$labels['sr_save'] = 'Tallenna';
+$labels['sr_delete'] = 'Poista';
+$labels['sr_duplicate'] = 'Kaksoiskappaleet';
+$labels['sr_move_up'] = 'Siirry ylöspäin';
+$labels['sr_move_down'] = 'Siirry alaspäin';
+$labels['sr_preview'] = 'Esikatselu';
+$labels['sr_shuffle'] = 'Shuffle allekirjoitus';
+$labels['sr_shuffle_preview'] = 'Shuffle esikatselu';
+$labels['sr_export'] = 'Vie';
+$labels['sr_import'] = 'Tuo';
+$labels['sr_import_paste'] = 'Liitä JSON tähän ja napsauta Tuo';
+$labels['sr_no_variants'] = 'Ei vielä vaihtoehtoja. Klikkaa Lisää luodaksesi ensimmäisen.';
+$labels['sr_saved'] = 'Tallennettu';
+$labels['sr_invalid_json'] = 'Virheellinen JSON';
+$labels['sr_new_variant'] = 'Uusi variantti';
+$labels['sr_html'] = 'Allekirjoitus HTML';
+$labels['sr_preview_title'] = 'Esikatselu';
+$labels['sr_import_btn'] = 'Tuo nyt';
+$labels['sr_export_title'] = 'Vie JSON';
+$labels['sr_import_title'] = 'Tuo JSON';
+$labels['sr_toolbar_shuffle'] = 'Shuffle allekirjoitus';
+?>

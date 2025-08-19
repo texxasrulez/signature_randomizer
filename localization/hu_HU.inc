@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Aláírás Randomizer';
+$labels['sr_section'] = 'Aláírási lehetőségek';
+$labels['sr_enable'] = 'Aláírás véletlenszerűség engedélyezése';
+$labels['sr_manager'] = 'Aláírás változatok';
+$labels['sr_include'] = 'Tartalmazza a  címet';
+$labels['sr_name'] = 'Név';
+$labels['sr_weight'] = 'Súly';
+$labels['sr_actions'] = 'Tevékenységek';
+$labels['sr_add'] = 'Add';
+$labels['sr_save'] = 'Mentés';
+$labels['sr_delete'] = 'Törölje a  címet';
+$labels['sr_duplicate'] = 'Duplikátum';
+$labels['sr_move_up'] = 'Mozogj feljebb';
+$labels['sr_move_down'] = 'Mozgás lefelé';
+$labels['sr_preview'] = 'Előnézet';
+$labels['sr_shuffle'] = 'Shuffle aláírás';
+$labels['sr_shuffle_preview'] = 'Shuffle előnézet';
+$labels['sr_export'] = 'Exportálás';
+$labels['sr_import'] = 'Import';
+$labels['sr_import_paste'] = 'Illessze be ide a JSON-t és kattintson az Importálás gombra';
+$labels['sr_no_variants'] = 'Még nincsenek változatok. Kattintson a Hozzáadás gombra az első létrehozásához.';
+$labels['sr_saved'] = 'Megmentett';
+$labels['sr_invalid_json'] = 'Érvénytelen JSON';
+$labels['sr_new_variant'] = 'Új változat';
+$labels['sr_html'] = 'Aláírás HTML';
+$labels['sr_preview_title'] = 'Előnézet';
+$labels['sr_import_btn'] = 'Import most';
+$labels['sr_export_title'] = 'JSON exportálása';
+$labels['sr_import_title'] = 'JSON importálása';
+$labels['sr_toolbar_shuffle'] = 'Shuffle aláírás';
+?>

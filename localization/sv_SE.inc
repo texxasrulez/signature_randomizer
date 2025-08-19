@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Slumpgenerator för signaturer';
+$labels['sr_section'] = 'Alternativ för signatur';
+$labels['sr_enable'] = 'Aktivera slumpgenerator för signatur';
+$labels['sr_manager'] = 'Signaturvarianter';
+$labels['sr_include'] = 'Inkludera';
+$labels['sr_name'] = 'Namn';
+$labels['sr_weight'] = 'Vikt';
+$labels['sr_actions'] = 'Åtgärder';
+$labels['sr_add'] = 'Lägg till';
+$labels['sr_save'] = 'Spara';
+$labels['sr_delete'] = 'Radera';
+$labels['sr_duplicate'] = 'Duplicera';
+$labels['sr_move_up'] = 'Flytta upp';
+$labels['sr_move_down'] = 'Flytta ner';
+$labels['sr_preview'] = 'Förhandsgranskning';
+$labels['sr_shuffle'] = 'Shuffle signatur';
+$labels['sr_shuffle_preview'] = 'Förhandsgranskning av shuffle';
+$labels['sr_export'] = 'Export';
+$labels['sr_import'] = 'Import';
+$labels['sr_import_paste'] = 'Klistra in JSON här och klicka på Importera';
+$labels['sr_no_variants'] = 'Inga varianter ännu. Klicka på Lägg till för att skapa din första.';
+$labels['sr_saved'] = 'Sparade';
+$labels['sr_invalid_json'] = 'Ogiltig JSON';
+$labels['sr_new_variant'] = 'Ny variant';
+$labels['sr_html'] = 'Signatur HTML';
+$labels['sr_preview_title'] = 'Förhandsgranskning';
+$labels['sr_import_btn'] = 'Importera nu';
+$labels['sr_export_title'] = 'Exportera JSON';
+$labels['sr_import_title'] = 'Importera JSON';
+$labels['sr_toolbar_shuffle'] = 'Shuffle signatur';
+?>

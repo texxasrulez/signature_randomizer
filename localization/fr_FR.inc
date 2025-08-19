@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Signature Randomizer';
+$labels['sr_section'] = 'Options de signature';
+$labels['sr_enable'] = 'Activer l\'aléatoire de la signature';
+$labels['sr_manager'] = 'Variantes de la signature';
+$labels['sr_include'] = 'Inclure';
+$labels['sr_name'] = 'Nom';
+$labels['sr_weight'] = 'Poids';
+$labels['sr_actions'] = 'Actions';
+$labels['sr_add'] = 'Ajouter';
+$labels['sr_save'] = 'Économiser';
+$labels['sr_delete'] = 'Supprimer';
+$labels['sr_duplicate'] = 'Duplicata';
+$labels['sr_move_up'] = 'Monter en grade';
+$labels['sr_move_down'] = 'Descendre';
+$labels['sr_preview'] = 'Avant-première';
+$labels['sr_shuffle'] = 'Signature aléatoire';
+$labels['sr_shuffle_preview'] = 'Aperçu de la lecture aléatoire';
+$labels['sr_export'] = 'Exportation';
+$labels['sr_import'] = 'Importation';
+$labels['sr_import_paste'] = 'Collez le JSON ici et cliquez sur Importer';
+$labels['sr_no_variants'] = 'Il n\'y a pas encore de variantes. Cliquez sur Ajouter pour créer votre première variante.';
+$labels['sr_saved'] = 'Sauvegardé';
+$labels['sr_invalid_json'] = 'JSON invalide';
+$labels['sr_new_variant'] = 'Nouvelle variante';
+$labels['sr_html'] = 'Signature HTML';
+$labels['sr_preview_title'] = 'Avant-première';
+$labels['sr_import_btn'] = 'Importer maintenant';
+$labels['sr_export_title'] = 'Exporter JSON';
+$labels['sr_import_title'] = 'Importer JSON';
+$labels['sr_toolbar_shuffle'] = 'Signature aléatoire';
+?>

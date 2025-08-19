@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'Signature Randomizer';
+$labels['sr_section'] = 'Signature Options';
+$labels['sr_enable'] = 'Enable Signature Randomizer';
+$labels['sr_manager'] = 'Signature Variants';
+$labels['sr_include'] = 'Include';
+$labels['sr_name'] = 'Name';
+$labels['sr_weight'] = 'Weight';
+$labels['sr_actions'] = 'Actions';
+$labels['sr_add'] = 'Add';
+$labels['sr_save'] = 'Save';
+$labels['sr_delete'] = 'Delete';
+$labels['sr_duplicate'] = 'Duplicate';
+$labels['sr_move_up'] = 'Move up';
+$labels['sr_move_down'] = 'Move down';
+$labels['sr_preview'] = 'Preview';
+$labels['sr_shuffle'] = 'Shuffle signature';
+$labels['sr_shuffle_preview'] = 'Shuffle preview';
+$labels['sr_export'] = 'Export';
+$labels['sr_import'] = 'Import';
+$labels['sr_import_paste'] = 'Paste JSON here and click Import';
+$labels['sr_no_variants'] = 'No variants yet. Click Add to create your first.';
+$labels['sr_saved'] = 'Saved';
+$labels['sr_invalid_json'] = 'Invalid JSON';
+$labels['sr_new_variant'] = 'New variant';
+$labels['sr_html'] = 'Signature HTML';
+$labels['sr_preview_title'] = 'Preview';
+$labels['sr_import_btn'] = 'Import now';
+$labels['sr_export_title'] = 'Export JSON';
+$labels['sr_import_title'] = 'Import JSON';
+$labels['sr_toolbar_shuffle'] = 'Shuffle signature';
+?>

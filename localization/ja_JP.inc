@@ -1,0 +1,33 @@
+<?php
+$labels = array();
+$labels['sr_title'] = 'シグネチャー・ランダマイザー';
+$labels['sr_section'] = '署名オプション';
+$labels['sr_enable'] = '署名ランダマイザーを有効にする';
+$labels['sr_manager'] = 'シグネチャー・バリエーション';
+$labels['sr_include'] = '含む';
+$labels['sr_name'] = '名称';
+$labels['sr_weight'] = '重量';
+$labels['sr_actions'] = '行動';
+$labels['sr_add'] = '追加';
+$labels['sr_save'] = 'セーブ';
+$labels['sr_delete'] = '削除';
+$labels['sr_duplicate'] = '重複';
+$labels['sr_move_up'] = '繰り上げ';
+$labels['sr_move_down'] = '下に移動';
+$labels['sr_preview'] = 'プレビュー';
+$labels['sr_shuffle'] = 'シャッフル・シグネチャー';
+$labels['sr_shuffle_preview'] = 'シャッフル・プレビュー';
+$labels['sr_export'] = '輸出';
+$labels['sr_import'] = '輸入';
+$labels['sr_import_paste'] = 'ここにJSONを貼り付け、インポートをクリックする';
+$labels['sr_no_variants'] = 'バリアントはまだありません。追加をクリックして最初のバリエーションを作成してください。';
+$labels['sr_saved'] = '保存';
+$labels['sr_invalid_json'] = '無効なJSON';
+$labels['sr_new_variant'] = '新バリアント';
+$labels['sr_html'] = 'シグネチャーHTML';
+$labels['sr_preview_title'] = 'プレビュー';
+$labels['sr_import_btn'] = '今すぐ輸入する';
+$labels['sr_export_title'] = 'JSONエクスポート';
+$labels['sr_import_title'] = 'JSONのインポート';
+$labels['sr_toolbar_shuffle'] = 'シャッフル・シグネチャー';
+?>
