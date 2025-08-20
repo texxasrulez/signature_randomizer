@@ -1,10 +1,14 @@
 {
   "name": "texxasrulez/signature_randomizer",
-  "description": "Roundcube plugin: multi-variant signatures with weighted randomization and theme-native UI.",
-    "homepage": "https://github.com/texxasrulez/signature_randomizer",
   "type": "roundcube-plugin",
+  "description": "Roundcube plugin: multi-variant signatures with weighted randomization and theme-native UI.",
+  "homepage": "https://github.com/texxasrulez/signature_randomizer",
+  "support": {
+    "issues": "https://github.com/texxasrulez/signature_randomizer/issues",
+    "source": "https://github.com/texxasrulez/signature_randomizer"
+  },
+  "license": "GPL-3.0",
   "version": "0.9.6",
-  "license": "MIT",
     "authors": [
         {
             "name": "Gene Hawkins",
