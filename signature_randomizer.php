@@ -139,7 +139,7 @@ class signature_randomizer extends rcube_plugin
             'title'   => 'sr_toolbar_shuffle',
             'class'   => 'button sr-shuffle',
             'domain'  => $this->ID,
-            'inner'   => html::img(array('src'=>$this->local_skin_path().'/shuffle.svg','alt'=>$this->gettext('sr_toolbar_shuffle')))
+            'inner'   => html::img(array('src'=>$this->local_skin_path().'/shuffle.png','alt'=>$this->gettext('sr_toolbar_shuffle')))
         ), 'toolbar');
 
         return $args;

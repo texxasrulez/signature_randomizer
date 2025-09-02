@@ -49,3 +49,23 @@
 #sr-table td:nth-child(1) { text-align:center; }
 #sr-table th:nth-child(1) { text-align:left; }
 
+/* === Signature Randomizer: toolbar icon === */
+#compose-toolbar a.button.sr-shuffle,
+.toolbar a.button.sr-shuffle {
+  background: transparent url('shuffle.png') 6px 50% no-repeat;
+  padding-left: 26px; /* space for icon */
+}
+
+
+/* === Signature Randomizer: toolbar icon vertical layout === */
+#compose-toolbar a.button.sr-shuffle,
+.compose-toolbar a.button.sr-shuffle,
+.toolbar a.button.sr-shuffle {
+  background: transparent url('shuffle.png') center 6px no-repeat !important;
+  background-size: 22px 22px;
+  padding-left: 0 !important;
+  padding-top: 32px !important; /* space for icon above text */
+  min-width: 58px;               /* look like other toolbar buttons */
+  text-align: center;
+}
+

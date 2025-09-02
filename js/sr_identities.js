@@ -1,5 +1,42 @@
 /* Signature Randomizer identities UI */
 (function () {
+
+// === SR: Rich editor support ===
+function sr_init_editor(ta, v) {
+  try {
+    if (!ta || !window.tinymce) return;
+    if (!ta.id) ta.id = 'sr_html_' + (v && v.vid ? v.vid : (Date.now()+Math.random().toString(16).slice(2)));
+    var ex = window.tinymce.get(ta.id);
+    if (ex) { try { ex.remove(); } catch(_) {} }
+    var base = (window.tinymce.editors && window.tinymce.editors.length)
+      ? (window.tinymce.editors[0].settings || {}) : {};
+    var cfg = {};
+    for (var k in base) { try { cfg[k] = base[k]; } catch(e) {} }
+    delete cfg.selector; delete cfg.mode; delete cfg.elements; delete cfg.target;
+    cfg.target = ta;
+    if (!cfg.height) cfg.height = 180;
+    cfg.setup = function (ed) {
+      ed.on('init', function () { try { ed.setContent(ta.value || ''); } catch(e) {} });
+      var upd = function(){ try { v.html = ed.getContent(); } catch(e) {} };
+      ed.on('change keyup undo redo SetContent', upd);
+    };
+    window.tinymce.init(cfg);
+  } catch (e) { try { console.warn('[SR] editor init failed', e); } catch(_){}} 
+}
+function sr_destroy_all_editors() {
+  if (!window.tinymce) return;
+  try {
+    var list = document.querySelectorAll('textarea.sr-html');
+    for (var i=0;i<list.length;i++) {
+      var id = list[i].id;
+      if (id) {
+        var ed = window.tinymce.get(id);
+        if (ed) ed.remove();
+      }
+    }
+  } catch(_) {}
+}
+// === end SR: Rich editor support ===
   if (!window.rcmail) return;
 
   function $(sel, ctx) {
@@ -105,6 +142,7 @@
     const tb = $('#sr-table tbody');
     if (!tb) return;
     tb.innerHTML = '';
+    try { sr_destroy_all_editors(); } catch(_) {}
 
     if (!list || !list.length) {
       const tr = document.createElement('tr');
@@ -208,6 +246,7 @@
       ta.className = 'txt sr-html';
       ta.rows = 4;
       ta.value = v.html || '';
+      setTimeout(function(){ sr_init_editor(ta, v); }, 0);
       ta.addEventListener('focus', () => {
         if (ta.placeholder) ta.placeholder = '';
       });
