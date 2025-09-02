@@ -113,7 +113,7 @@ If installed manually, remove the `plugins/signature_randomizer/` directory.
 
 ## License
 
-MIT License
+GPL 3.0
 
 ---
 
