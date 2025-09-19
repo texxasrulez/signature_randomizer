@@ -37,7 +37,7 @@
 #sr-table .sr-actions .button,
 #sr-table .sr-actions button,
 #sr-manager .sr-controls .button,
-#sr-manager .sr-controls button { min-height: 28px; line-height: 28px; padding: 0 10px; box-sizing: border-box; }
+#sr-manager .sr-controls button { min-height: 28px; line-height: 28px; padding: 0 10px; box-sizing: border-box; border-radius: 6px; }
 
 /* Prevent overly tall HTML editor cell from crowding */
 .sr-editor-row .sr-html { min-height: 200px; height: 200px; }

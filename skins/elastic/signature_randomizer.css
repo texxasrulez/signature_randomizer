@@ -23,6 +23,7 @@
 /* Keep buttons readable and prevent awkward line breaks */
 #sr-manager .sr-controls .button {
   white-space: nowrap;
+  border-radius: 6px;
 }
 
 /* Table aligns with Elastic propform look-and-feel */
