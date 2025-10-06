@@ -29,7 +29,6 @@
 /* Table aligns with Elastic propform look-and-feel */
 #sr-table {
   width: 100%;
-  background-color: #21292c;
   color: #fff;
   border-collapse: separate;
   border-spacing: 0 6px; /* soft row separation like Elastic groups */
@@ -49,7 +48,6 @@
 /* Inputs stretch neatly without blowing up row heights */
 #sr-table .txt {
   width: 100%;
-  background-color: #21292c;
   color: #fff;
   box-sizing: border-box;
   min-height: 30px;
@@ -71,7 +69,6 @@
 /* Editor row directly under each variant with label */
 .sr-editor-row .sr-html {
   width: 100%;
-  background-color: #21292c;
   color: #fff;
   box-sizing: border-box;
   margin-top: 6px;
