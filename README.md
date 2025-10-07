@@ -113,7 +113,7 @@ bin/cleancache.sh
 If installed via Composer:
 
 ```bash
-composer remove your-vendor/signature_randomizer
+composer remove texxasrulez/signature_randomizer
 ```
 
 If installed manually, remove the `plugins/signature_randomizer/` directory.
