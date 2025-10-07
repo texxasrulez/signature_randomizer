@@ -38,7 +38,7 @@ Each signature can be weighted, randomized, and managed through a built-in UI.
 From your Roundcube root directory:
 
 ```bash
-composer require your-vendor/signature_randomizer
+composer require texxasrulez/signature_randomizer
 ```
 
 This installs the plugin under `plugins/signature_randomizer/`.
