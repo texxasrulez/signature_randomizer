@@ -5,7 +5,7 @@
 [![Project license](https://img.shields.io/github/license/texxasrulez/signature_randomizer?style=plastic)](https://github.com/texxasrulez/signature_randomizer/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/texxasrulez/signature_randomizer?style=plastic&logo=github)](https://github.com/texxasrulez/signature_randomizer/stargazers)
 [![issues](https://img.shields.io/github/issues/texxasrulez/signature_randomizer?style=plastic)](https://github.com/texxasrulez/signature_randomizer/issues)
-[![Donate to this project using Paypal](https://img.shields.io/badge/paypal-donate-blue.svg?style=plastic&logo=paypal)](https://www.paypal.me/texxasrulez)
+[![Donate to this project using Paypal](https://img.shields.io/badge/paypal-money_please-blue.svg?style=plastic&logo=paypal)](https://www.paypal.me/texxasrulez)
 
 **Signature Randomizer** is a Roundcube plugin that allows each identity to have multiple signatures.  
 Each signature can be weighted, randomized, and managed through a built-in UI.
