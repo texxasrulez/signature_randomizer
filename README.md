@@ -1,11 +1,11 @@
 # Roundcube Signature Randomizer
 
-[![Packagist](https://img.shields.io/packagist/dt/texxasrulez/signature_randomizer?style=flat-square)](https://packagist.org/packages/texxasrulez/signature_randomizer)
-[![Packagist Version](https://img.shields.io/packagist/v/texxasrulez/signature_randomizer?style=flat-square)](https://packagist.org/packages/texxasrulez/signature_randomizer)
-[![Project license](https://img.shields.io/github/license/texxasrulez/signature_randomizer?style=flat-square)](https://github.com/texxasrulez/signature_randomizer/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/texxasrulez/signature_randomizer?style=flat-square&logo=github)](https://github.com/texxasrulez/signature_randomizer/stargazers)
+[![Packagist](https://img.shields.io/packagist/dt/texxasrulez/signature_randomizer?style=plastic)](https://packagist.org/packages/texxasrulez/signature_randomizer)
+[![Packagist Version](https://img.shields.io/packagist/v/texxasrulez/signature_randomizer?style=plastic&logo=packagist&logoColor=white)](https://packagist.org/packages/texxasrulez/signature_randomizer)
+[![Project license](https://img.shields.io/github/license/texxasrulez/signature_randomizer?style=plastic)](https://github.com/texxasrulez/signature_randomizer/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/texxasrulez/signature_randomizer?style=plastic&logo=github)](https://github.com/texxasrulez/signature_randomizer/stargazers)
 [![issues](https://img.shields.io/github/issues/texxasrulez/signature_randomizer)](https://github.com/texxasrulez/signature_randomizer/issues)
-[![Donate to this project using Paypal](https://img.shields.io/badge/paypal-donate-blue.svg?style=flat-square&logo=paypal)](https://www.paypal.me/texxasrulez)
+[![Donate to this project using Paypal](https://img.shields.io/badge/paypal-donate-blue.svg?style=plastic&logo=paypal)](https://www.paypal.me/texxasrulez)
 
 **Signature Randomizer** is a Roundcube plugin that allows each identity to have multiple signatures.  
 Each signature can be weighted, randomized, and managed through a built-in UI.
